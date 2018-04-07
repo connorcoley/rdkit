@@ -26,7 +26,7 @@ _HasSubstructMatchStr = rdchem._HasSubstructMatchStr
 from rdkit.Chem.rdchem import *
 from rdkit.Chem.rdmolfiles import *
 from rdkit.Chem.rdmolops import *
-from rdkit.Chem.inchi import *
+from rdkit.Chem.rdinchi import *
 
 
 def QuickSmartsMatch(smi, sma, unique=True, display=False):
